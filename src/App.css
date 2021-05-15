@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-Title {
+  background-color: #0f45a8;
+  font-size: xx-large;
+  color: white;
+}
+
+.App-container{
+  background-color: #7686a5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+.parent {
+  display: flex;
+}
+.child {
+  margin-left: 350px;
+  order: 2;  
+}
+.header {
+  padding: 20px 0;
+  color: #ffffff;
+  background-color: rgb(22, 150, 236);
+  width: 100%;
+  text-align: center;
+  border-bottom: 10px solid rgb(122, 138, 158);
+  margin-bottom: 10px;
+  color: white;
+  /* padding-right: 200px;
+  padding-left:200px */
+}
+
+  
+input {
+  margin-left: 10px;
+  margin-right:150px;
+  margin-top: 50px;
+  font-family: 'Baloo Paaji 2', cursive;
+  width:500px;
+  height: 40px;
+}
